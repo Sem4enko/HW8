@@ -8,9 +8,6 @@ public class Main {
         for (int i = 0; i < 100; i++) {
             cars.add(carGenerate.randomCar());
         }
-       // System.out.println("Total list of cars:");
-       // cars.forEach(System.out::println);
-
 
         System.out.println("\nList of only cars 'AUDI' and 'TESLA':");
         List<Car> l1 = cars.stream()
